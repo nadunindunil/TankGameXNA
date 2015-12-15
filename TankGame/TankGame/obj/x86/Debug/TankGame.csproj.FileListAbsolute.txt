@@ -1,0 +1,6 @@
+c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\TankGame.exe
+c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\TankGame.pdb
+c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\obj\x86\Debug\TankGame.csprojResolveAssemblyReference.cache
+c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\obj\x86\Debug\TankGame.exe
+c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\obj\x86\Debug\TankGame.pdb
