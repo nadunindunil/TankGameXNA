@@ -1,0 +1,9 @@
+C:\Users\NADUN\Desktop\ProChallenge2-master\TankClient\bin\Debug\TankClient.exe.config
+C:\Users\NADUN\Desktop\ProChallenge2-master\TankClient\bin\Debug\TankClient.exe
+C:\Users\NADUN\Desktop\ProChallenge2-master\TankClient\bin\Debug\TankClient.pdb
+C:\Users\NADUN\Desktop\ProChallenge2-master\TankClient\obj\Debug\TankClient.csprojResolveAssemblyReference.cache
+C:\Users\NADUN\Desktop\ProChallenge2-master\TankClient\obj\Debug\TankClient.Form1.resources
+C:\Users\NADUN\Desktop\ProChallenge2-master\TankClient\obj\Debug\TankClient.Properties.Resources.resources
+C:\Users\NADUN\Desktop\ProChallenge2-master\TankClient\obj\Debug\TankClient.csproj.GenerateResource.Cache
+C:\Users\NADUN\Desktop\ProChallenge2-master\TankClient\obj\Debug\TankClient.exe
+C:\Users\NADUN\Desktop\ProChallenge2-master\TankClient\obj\Debug\TankClient.pdb

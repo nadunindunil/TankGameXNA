@@ -83,6 +83,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\Desktop\ProChallenge2-master\TankClient\TankClient.csproj">
+      <Project>{73ed151c-8c25-4161-85e7-185784001531}</Project>
+      <Name>TankClient</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TankGameContent\TankGameContent.contentproj">
       <Name>TankGameContent</Name>
       <XnaReferenceType>Content</XnaReferenceType>

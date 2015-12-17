@@ -1,6 +1,132 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>brick.jpg</Source>
+      <Name>brick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\brick.xnb</Output>
+      <Time>2015-12-17T16:10:55.1040872+05:30</Time>
+    </Item>
+    <Item>
+      <Source>bullet_down.png</Source>
+      <Name>bullet_down</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\bullet_down.xnb</Output>
+      <Time>2015-12-17T16:10:55.1241137+05:30</Time>
+    </Item>
+    <Item>
+      <Source>Bullet_left.png</Source>
+      <Name>Bullet_left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\Bullet_left.xnb</Output>
+      <Time>2015-12-17T16:10:55.1290901+05:30</Time>
+    </Item>
+    <Item>
+      <Source>bullet_right.png</Source>
+      <Name>bullet_right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\bullet_right.xnb</Output>
+      <Time>2015-12-17T16:10:55.1290901+05:30</Time>
+    </Item>
+    <Item>
+      <Source>bullet_up.png</Source>
+      <Name>bullet_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\bullet_up.xnb</Output>
+      <Time>2015-12-17T16:10:55.1345953+05:30</Time>
+    </Item>
+    <Item>
+      <Source>coin.png</Source>
+      <Name>coin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\coin.xnb</Output>
+      <Time>2015-12-17T16:10:55.1368804+05:30</Time>
+    </Item>
+    <Item>
+      <Source>grass.jpg</Source>
+      <Name>grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\grass.xnb</Output>
+      <Time>2015-12-17T16:10:55.1392245+05:30</Time>
+    </Item>
+    <Item>
+      <Source>medic_bag.png</Source>
+      <Name>medic_bag</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\medic_bag.xnb</Output>
+      <Time>2015-12-17T16:10:55.1414988+05:30</Time>
+    </Item>
+    <Item>
+      <Source>stone_brick.png</Source>
+      <Name>stone_brick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\stone_brick.xnb</Output>
+      <Time>2015-12-17T16:10:55.1445039+05:30</Time>
+    </Item>
+    <Item>
+      <Source>Tank_down.png</Source>
+      <Name>Tank_down</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\Tank_down.xnb</Output>
+      <Time>2015-12-17T16:10:55.1468529+05:30</Time>
+    </Item>
+    <Item>
+      <Source>Tank_left.png</Source>
+      <Name>Tank_left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\Tank_left.xnb</Output>
+      <Time>2015-12-17T16:10:55.1491384+05:30</Time>
+    </Item>
+    <Item>
+      <Source>Tank_right.png</Source>
+      <Name>Tank_right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\Tank_right.xnb</Output>
+      <Time>2015-12-17T16:10:55.1517461+05:30</Time>
+    </Item>
+    <Item>
+      <Source>tank_up.png</Source>
+      <Name>tank_up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\tank_up.xnb</Output>
+      <Time>2015-12-17T16:10:55.1545471+05:30</Time>
+    </Item>
+    <Item>
+      <Source>water.jpg</Source>
+      <Name>water</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\water.xnb</Output>
+      <Time>2015-12-17T16:10:55.1569573+05:30</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{A82F5EAE-D706-4971-A3C2-5E38581692CC}</ContentProjectGUID>
@@ -14,6 +140,30 @@
       <OutputDirectory>c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+05:30</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+05:30</Value>
+      </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
         <Value>2015-10-19T14:46:17.4113502+05:30</Value>
