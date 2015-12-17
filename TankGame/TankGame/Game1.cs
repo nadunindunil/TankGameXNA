@@ -211,7 +211,7 @@ namespace TankGame
         }
         private void DrawPlayers(String[,] map1)
         {
-            String str = "grass1";
+            
 
             Console.WriteLine(map1);
 
@@ -219,8 +219,9 @@ namespace TankGame
             {
                 for (int j = 0; j < 10; j++)
                 {
+                    String str = "grass1";
                     Console.WriteLine("loop val  " + map1[i, j]);
-                    if (map1[j, i] != null)
+                    if (map1[i, j] != null)
                     {
                         //PlayerData player = new PlayerData();
                         //String str = null;
@@ -228,7 +229,7 @@ namespace TankGame
                         //player.user = net.map[i][j].user;
                         //player.Direction = net.map[i][j].Direction;
                         //player.Position = new Vector2((i * 45) + 4, ((j * 45) + 5));
-                        Vector2 Position = new Vector2((i * 50), (j * 50));
+                        Vector2 Position = new Vector2(((j * 50) + 5), ((i * 50) + 5));
 
                         String init = map1[i, j];
 
@@ -309,7 +310,7 @@ namespace TankGame
                         //PlayerData player = new PlayerData();
                         ////String str = null;
                         //player.type = net.map[i][j].type;
-                        Vector2 Position = new Vector2((i * 50), (j * 50));
+                        Vector2 Position = new Vector2(((j * 50)+5), ((i * 50)+5));
                         //carriageTexture = Content.Load<Texture2D>("blank");
                         try
                         {
