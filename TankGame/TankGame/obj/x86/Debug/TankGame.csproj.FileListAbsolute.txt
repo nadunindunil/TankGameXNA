@@ -4,3 +4,13 @@ c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\
 c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\obj\x86\Debug\TankGame.exe
 c:\users\nadun\documents\visual studio 2013\Projects\TankGame\TankGame\TankGame\obj\x86\Debug\TankGame.pdb
+C:\Users\NADUN\Documents\Visual Studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\brick1.xnb
+C:\Users\NADUN\Documents\Visual Studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\coin1.xnb
+C:\Users\NADUN\Documents\Visual Studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\grass1.xnb
+C:\Users\NADUN\Documents\Visual Studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\medic1.xnb
+C:\Users\NADUN\Documents\Visual Studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\stone1.xnb
+C:\Users\NADUN\Documents\Visual Studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\tankdown1.xnb
+C:\Users\NADUN\Documents\Visual Studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\tankleft1.xnb
+C:\Users\NADUN\Documents\Visual Studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\tankright1.xnb
+C:\Users\NADUN\Documents\Visual Studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\tankup1.xnb
+C:\Users\NADUN\Documents\Visual Studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\water1.xnb

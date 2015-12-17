@@ -30,73 +30,53 @@
     <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="brick.jpg">
-      <Name>brick</Name>
+    <Compile Include="brick1.jpg">
+      <Name>brick1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="bullet_down.png">
-      <Name>bullet_down</Name>
+    <Compile Include="coin1.jpg">
+      <Name>coin1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Bullet_left.png">
-      <Name>Bullet_left</Name>
+    <Compile Include="grass1.jpg">
+      <Name>grass1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="bullet_right.png">
-      <Name>bullet_right</Name>
+    <Compile Include="medic1.jpg">
+      <Name>medic1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="bullet_up.png">
-      <Name>bullet_up</Name>
+    <Compile Include="stone1.jpg">
+      <Name>stone1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="coin.png">
-      <Name>coin</Name>
+    <Compile Include="tankdown1.jpg">
+      <Name>tankdown1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="grass.jpg">
-      <Name>grass</Name>
+    <Compile Include="tankleft1.jpg">
+      <Name>tankleft1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="medic_bag.png">
-      <Name>medic_bag</Name>
+    <Compile Include="tankright1.jpg">
+      <Name>tankright1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="stone_brick.png">
-      <Name>stone_brick</Name>
+    <Compile Include="tankup1.jpg">
+      <Name>tankup1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="Tank_down.png">
-      <Name>Tank_down</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Tank_left.png">
-      <Name>Tank_left</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="Tank_right.png">
-      <Name>Tank_right</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="tank_up.png">
-      <Name>tank_up</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-    <Compile Include="water.jpg">
-      <Name>water</Name>
+    <Compile Include="water1.jpg">
+      <Name>water1</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

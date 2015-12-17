@@ -15,14 +15,15 @@ namespace TankClient
     {
         private bool isInit = false;
         private int playerNo = -1;      
-        public static  String brickSimbol = "▥";
-        public static String stoneSimbol = "▦";
-        public static String waterSimbol = "▩";
-        public static String blankSimbol = "▢";
-        public static String coinSimbol = "◉";
-        public static String lifePackSimbol = "☩";
+        public static  String brickSimbol = "B";
+        public static String stoneSimbol = "S";
+        public static String waterSimbol = "W";
+        public static String blankSimbol = "N";
+        public static String coinSimbol = "C";
+        public static String lifePackSimbol = "M";
 
-        public static String[] playerDir = { "▲", "►", "▼", "◄" };
+        //public static String[] playerDir = { "▲", "►", "▼", "◄" };
+        public static String[] playerDir = { "up", "right", "down", "left" };
         public static int GRID_SIZE = 10;
 
         private String[,] map;
@@ -111,6 +112,7 @@ namespace TankClient
             }
         }
         public void setMap(String msg) {
+            Console.WriteLine("in set Map");
             
             if (!isInit)
             {
@@ -293,6 +295,7 @@ namespace TankClient
 
         private void initMap()
         {
+            Console.WriteLine("init map");
 
             for (int i = 0; i < GRID_SIZE; i++)
             {
