@@ -10,6 +10,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using TankClient;
 using TankClient.AI;
+using TankClient.Players;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -35,6 +36,10 @@ namespace TankGame
         Texture2D tankDown;
         Texture2D tankRight;
         Texture2D tankLeft;
+        Texture2D etankUp;
+        Texture2D etankDown;
+        Texture2D etankRight;
+        Texture2D etankLeft;
         Texture2D bulletUp;
         Texture2D bulletDown;
         Texture2D bulletLeft;
@@ -54,6 +59,7 @@ namespace TankGame
         public static String lifePackSimbol = "M";
         String[,] map1;
         public static String[] playerDir = { "up", "right", "down", "left" };
+        public static String[] playerDir1 = { "up1", "right1", "down1", "left1" };
 
        
 
@@ -69,6 +75,7 @@ namespace TankGame
             this.com = Communicator.GetInstance();
             this.con = Controller.GetInstance();
             join();
+            //aiwork();
         }
 
 
@@ -83,7 +90,7 @@ namespace TankGame
         {
             // TODO: Add your initialization logic here
             graphics.PreferredBackBufferWidth = 800;
-            graphics.PreferredBackBufferHeight = 700;
+            graphics.PreferredBackBufferHeight = 510;
             graphics.IsFullScreen = false;
             graphics.ApplyChanges();
             Window.Title = "Tank Game";
@@ -112,6 +119,10 @@ namespace TankGame
             tankDown = Content.Load<Texture2D>("tankdown1");
             tankLeft = Content.Load<Texture2D>("tankleft1");
             tankRight = Content.Load<Texture2D>("tankright1");
+            etankUp = Content.Load<Texture2D>("etu");
+            etankDown = Content.Load<Texture2D>("etd");
+            etankLeft = Content.Load<Texture2D>("etl");
+            etankRight = Content.Load<Texture2D>("etr");
             //bulletUp = Content.Load<Texture2D>("bullet_up");
             //bulletDown = Content.Load<Texture2D>("bullet_down");
             //bulletLeft = Content.Load<Texture2D>("bullet_left");
@@ -209,6 +220,33 @@ namespace TankGame
             Console.WriteLine("test in display");
         
         }
+
+        private void aiwork()
+        {
+            DecodeOperations dc = DecodeOperations.GetInstance();
+
+            Controller con = Controller.GetInstance();
+            Player myPlayer = dc.getPlayer(dc.PlayerNo + 1);
+            Console.WriteLine("A");
+            MapItem[,] itList = con.createMapItemList(dc.getMap());
+            Console.WriteLine("B");
+
+            String whatToFind = null;
+            switch ("L")
+            {
+                case "Br": whatToFind = "B"; break;
+                case "S": whatToFind = "S"; break;
+                case "W": whatToFind = "W"; break;
+                case "B": whatToFind = "N"; break;
+                case "C": whatToFind = "C"; break;
+                case "L": whatToFind = "L"; break;
+            }
+
+            Thread threadDo = new Thread(() => con.controll());
+
+            threadDo.Start();
+
+        }
         private void DrawPlayers(String[,] map1)
         {
             
@@ -245,7 +283,7 @@ namespace TankGame
                         {
                             str = "water1";
                         }
-                        else if (playerDir.Contains(init))
+                        else if (playerDir.Contains(init) || playerDir1.Contains(init))
                         {
 
 
@@ -266,25 +304,25 @@ namespace TankGame
                                 str = "tankup1";
                             }
 
-                            //if (player.user == 0)
-                            //{
-                            //    if (player.Direction.Equals("West"))
-                            //    {
-                            //        str = "enemy_left";
-                            //    }
-                            //    else if (player.Direction.Equals("South"))
-                            //    {
-                            //        str = "enemy_down";
-                            //    }
-                            //    else if (player.Direction.Equals("East"))
-                            //    {
-                            //        str = "enemy_right";
-                            //    }
-                            //    else
-                            //    {
-                            //        str = "enemy_up";
-                            //    }
-                            //}
+                            if (playerDir1.Contains(init))
+                            {
+                                if (init == playerDir1[3])
+                                {
+                                    str = "etl";
+                                }
+                                else if (init == playerDir1[2])
+                                {
+                                    str = "etd";
+                                }
+                                else if (init == playerDir1[1])
+                                {
+                                    str = "etr";
+                                }
+                                else
+                                {
+                                    str = "etu";
+                                }
+                            }
 
                         }
                         else if (init == coinSimbol)

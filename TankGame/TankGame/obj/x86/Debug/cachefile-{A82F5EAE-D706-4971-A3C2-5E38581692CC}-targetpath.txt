@@ -8,3 +8,7 @@ Content\tankleft1.xnb
 Content\tankright1.xnb
 Content\tankup1.xnb
 Content\water1.xnb
+Content\etd.xnb
+Content\etl.xnb
+Content\etr.xnb
+Content\etu.xnb

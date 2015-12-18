@@ -91,6 +91,42 @@
       <Output>C:\Users\NADUN\Documents\Visual Studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\water1.xnb</Output>
       <Time>2015-12-18T01:02:39.1255261+05:30</Time>
     </Item>
+    <Item>
+      <Source>etd.jpg</Source>
+      <Name>etd</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\NADUN\Documents\Visual Studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\etd.xnb</Output>
+      <Time>2015-12-18T02:17:09.6691626+05:30</Time>
+    </Item>
+    <Item>
+      <Source>etl.jpg</Source>
+      <Name>etl</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\NADUN\Documents\Visual Studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\etl.xnb</Output>
+      <Time>2015-12-18T02:17:09.6721625+05:30</Time>
+    </Item>
+    <Item>
+      <Source>etr.jpg</Source>
+      <Name>etr</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\NADUN\Documents\Visual Studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\etr.xnb</Output>
+      <Time>2015-12-18T02:17:09.6751647+05:30</Time>
+    </Item>
+    <Item>
+      <Source>etu.jpg</Source>
+      <Name>etu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\NADUN\Documents\Visual Studio 2013\Projects\TankGame\TankGame\TankGame\bin\x86\Debug\Content\etu.xnb</Output>
+      <Time>2015-12-18T02:17:09.678167+05:30</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{A82F5EAE-D706-4971-A3C2-5E38581692CC}</ContentProjectGUID>

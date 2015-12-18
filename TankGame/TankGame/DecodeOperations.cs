@@ -24,6 +24,7 @@ namespace TankClient
 
         //public static String[] playerDir = { "▲", "►", "▼", "◄" };
         public static String[] playerDir = { "up", "right", "down", "left" };
+        public static String[] playerDir1 = { "up1", "right1", "down1", "left1" };
         public static int GRID_SIZE = 10;
 
         private String[,] map;
@@ -239,7 +240,7 @@ namespace TankClient
 
                 playerList[i - 1].setAll(x, y, d, ws, h, c, p);                
                 if(h!=0)
-                    map[y, x] = playerDir[d];
+                    map[y, x] = playerDir1[d];
             }
             
            
