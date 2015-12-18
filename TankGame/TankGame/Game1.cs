@@ -123,10 +123,10 @@ namespace TankGame
             etankDown = Content.Load<Texture2D>("etd");
             etankLeft = Content.Load<Texture2D>("etl");
             etankRight = Content.Load<Texture2D>("etr");
-            //bulletUp = Content.Load<Texture2D>("bullet_up");
-            //bulletDown = Content.Load<Texture2D>("bullet_down");
-            //bulletLeft = Content.Load<Texture2D>("bullet_left");
-            //bulletRight = Content.Load<Texture2D>("bullet_right");
+            bulletUp = Content.Load<Texture2D>("bu");
+            bulletDown = Content.Load<Texture2D>("bd");
+            bulletLeft = Content.Load<Texture2D>("bl");
+            bulletRight = Content.Load<Texture2D>("br");
             brick = Content.Load<Texture2D>("brick1");
             stone = Content.Load<Texture2D>("stone1");
             medic = Content.Load<Texture2D>("medic1");
@@ -304,25 +304,25 @@ namespace TankGame
                                 str = "tankup1";
                             }
 
-                            if (playerDir1.Contains(init))
-                            {
-                                if (init == playerDir1[3])
-                                {
-                                    str = "etl";
-                                }
-                                else if (init == playerDir1[2])
-                                {
-                                    str = "etd";
-                                }
-                                else if (init == playerDir1[1])
-                                {
-                                    str = "etr";
-                                }
-                                else
-                                {
-                                    str = "etu";
-                                }
-                            }
+                            //if (playerDir1.Contains(init))
+                            //{
+                            //    if (init == playerDir1[3])
+                            //    {
+                            //        str = "etl";
+                            //    }
+                            //    else if (init == playerDir1[2])
+                            //    {
+                            //        str = "etd";
+                            //    }
+                            //    else if (init == playerDir1[1])
+                            //    {
+                            //        str = "etr";
+                            //    }
+                            //    else
+                            //    {
+                            //        str = "etu";
+                            //    }
+                            //}
 
                         }
                         else if (init == coinSimbol)

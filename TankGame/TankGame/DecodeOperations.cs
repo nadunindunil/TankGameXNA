@@ -240,7 +240,7 @@ namespace TankClient
 
                 playerList[i - 1].setAll(x, y, d, ws, h, c, p);                
                 if(h!=0)
-                    map[y, x] = playerDir1[d];
+                    map[y, x] = playerDir[d];
             }
             
            
